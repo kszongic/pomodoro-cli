@@ -1,0 +1,33 @@
+{
+  "name": "@kszongic/pomodoro-cli",
+  "version": "1.0.0",
+  "description": "Simple Pomodoro timer for the terminal. Work 25 min, break 5 min. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "pomodoro": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "productivity",
+    "focus",
+    "cli",
+    "terminal",
+    "countdown"
+  ],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/pomodoro-cli"
+  },
+  "homepage": "https://github.com/kszongic/pomodoro-cli#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
